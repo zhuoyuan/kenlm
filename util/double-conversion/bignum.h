@@ -30,6 +30,7 @@
 
 #include "utils.h"
 
+namespace util {
 namespace double_conversion {
 
 class Bignum {
@@ -148,5 +149,6 @@ class Bignum {
 };
 
 }  // namespace double_conversion
+}  // namespace util
 
 #endif  // DOUBLE_CONVERSION_BIGNUM_H_

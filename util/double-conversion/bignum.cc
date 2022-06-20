@@ -31,6 +31,7 @@
 #include "bignum.h"
 #include "utils.h"
 
+namespace util {
 namespace double_conversion {
 
 Bignum::Chunk& Bignum::RawBigit(const int index) {
@@ -795,3 +796,4 @@ void Bignum::SubtractTimes(const Bignum& other, const int factor) {
 
 
 }  // namespace double_conversion
+}  // namespace util

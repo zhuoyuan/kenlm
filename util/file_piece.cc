@@ -162,8 +162,8 @@ void FilePiece::Initialize(const char *name, std::ostream *show_progress, std::s
 
 namespace {
 
-static const double_conversion::StringToDoubleConverter kConverter(
-    double_conversion::StringToDoubleConverter::ALLOW_TRAILING_JUNK | double_conversion::StringToDoubleConverter::ALLOW_LEADING_SPACES,
+static const util::double_conversion::StringToDoubleConverter kConverter(
+    util::double_conversion::StringToDoubleConverter::ALLOW_TRAILING_JUNK | util::double_conversion::StringToDoubleConverter::ALLOW_LEADING_SPACES,
     std::numeric_limits<double>::quiet_NaN(),
     std::numeric_limits<double>::quiet_NaN(),
     "inf",

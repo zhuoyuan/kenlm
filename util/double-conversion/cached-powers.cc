@@ -33,6 +33,7 @@
 
 #include "cached-powers.h"
 
+namespace util {
 namespace double_conversion {
 
 namespace PowersOfTenCache {
@@ -173,3 +174,4 @@ void GetCachedPowerForDecimalExponent(int requested_exponent,
 }  // namespace PowersOfTenCache
 
 }  // namespace double_conversion
+}  // namespace util

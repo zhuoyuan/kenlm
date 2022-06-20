@@ -37,6 +37,7 @@
 #include "ieee.h"
 #include "utils.h"
 
+namespace util {
 namespace double_conversion {
 
 const DoubleToStringConverter& DoubleToStringConverter::EcmaScriptConverter() {
@@ -438,3 +439,4 @@ void DoubleToStringConverter::DoubleToAscii(double v,
 }
 
 }  // namespace double_conversion
+}  // namespace util

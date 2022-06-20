@@ -30,6 +30,7 @@
 
 #include "utils.h"
 
+namespace util {
 namespace double_conversion {
 
 class DoubleToStringConverter {
@@ -441,5 +442,6 @@ class DoubleToStringConverter {
 };
 
 }  // namespace double_conversion
+}  // namespace util
 
 #endif  // DOUBLE_CONVERSION_DOUBLE_TO_STRING_H_

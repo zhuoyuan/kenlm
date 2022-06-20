@@ -30,6 +30,7 @@
 
 #include "utils.h"
 
+namespace util {
 namespace double_conversion {
 
 // This "Do It Yourself Floating Point" class implements a floating-point number
@@ -133,5 +134,6 @@ class DiyFp {
 };
 
 }  // namespace double_conversion
+}  // namespace util
 
 #endif  // DOUBLE_CONVERSION_DIY_FP_H_

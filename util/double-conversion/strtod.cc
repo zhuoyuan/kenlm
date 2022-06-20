@@ -33,6 +33,7 @@
 #include "ieee.h"
 #include "strtod.h"
 
+namespace util {
 namespace double_conversion {
 
 #if defined(DOUBLE_CONVERSION_CORRECT_DOUBLE_OPERATIONS)
@@ -606,3 +607,4 @@ float StrtofTrimmed(Vector<const char> trimmed, int exponent) {
 }
 
 }  // namespace double_conversion
+}  // namespace util

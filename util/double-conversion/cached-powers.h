@@ -30,6 +30,7 @@
 
 #include "diy-fp.h"
 
+namespace util {
 namespace double_conversion {
 
 namespace PowersOfTenCache {
@@ -60,5 +61,6 @@ namespace PowersOfTenCache {
 }  // namespace PowersOfTenCache
 
 }  // namespace double_conversion
+}  // namespace util
 
 #endif  // DOUBLE_CONVERSION_CACHED_POWERS_H_

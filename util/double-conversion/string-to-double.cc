@@ -47,6 +47,7 @@
 #  endif
 #endif
 
+namespace util {
 namespace double_conversion {
 
 namespace {
@@ -816,3 +817,4 @@ float StringToDoubleConverter::StringTo<float>(
 }
 
 }  // namespace double_conversion
+}  // namespace util

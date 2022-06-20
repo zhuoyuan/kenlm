@@ -229,6 +229,7 @@ typedef uint16_t uc16;
 #define DC_DISALLOW_IMPLICIT_CONSTRUCTORS DOUBLE_CONVERSION_DISALLOW_IMPLICIT_CONSTRUCTORS
 #endif
 
+namespace util {
 namespace double_conversion {
 
 inline int StrLength(const char* string) {
@@ -407,5 +408,6 @@ Dest BitCast(Source* source) {
 }
 
 }  // namespace double_conversion
+}  // namespace util
 
 #endif  // DOUBLE_CONVERSION_UTILS_H_

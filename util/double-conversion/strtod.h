@@ -30,6 +30,7 @@
 
 #include "utils.h"
 
+namespace util {
 namespace double_conversion {
 
 // The buffer must only contain digits in the range [0-9]. It must not
@@ -60,5 +61,6 @@ inline Vector<const char> TrimTrailingZeros(Vector<const char> buffer) {
 }
 
 }  // namespace double_conversion
+}  // namespace util
 
 #endif  // DOUBLE_CONVERSION_STRTOD_H_

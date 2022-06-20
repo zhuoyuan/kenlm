@@ -30,6 +30,7 @@
 
 #include "diy-fp.h"
 
+namespace util {
 namespace double_conversion {
 
 // We assume that doubles and uint64_t have the same endianness.
@@ -443,5 +444,6 @@ class Single {
 };
 
 }  // namespace double_conversion
+}  // namespace util
 
 #endif  // DOUBLE_CONVERSION_DOUBLE_H_
